@@ -18,3 +18,33 @@ split(',') -> split at any ','
 split(' ') -> split at any space
 split('/n') -> split at any newline
 ~~~
+# Wednesday
+## Two dimensional Array: An array that contain other arrays
+~~~
+const arr =[['a'], ['b'], ['c']]
+~~~
+# Thursday
+## Callback function: Function that is only called at a specific time or with a specific action
+Type of call back functions
+## Delay function: setTimeout(function, time) => let function happen after certain amount of time 
+~~~
+const print = function() {
+    console.log('hello')
+}
+
+let delay = setTimeout(print,2000)
+delay;
+~~~
+## Quit the delay function: clearTimeOut.
+~~~
+clearTimeout(delay)
+~~~
+## Interval function: make a function run all over again after a given time.
+~~~
+let run4ever = setInterval(print, 1000);
+run4ever;
+~~~
+## clear interval function
+~~~
+clearInterval (run4ever)
+~~~
